@@ -5469,6 +5469,16 @@ category = "UI (User Interface)"
 wasm = true
 
 [[example]]
+name = "radius_clip"
+path = "examples/ui/scroll_and_overflow/radius_clip.rs"
+
+[package.metadata.example.radius_clip]
+name = "Radius Clipping"
+description = "Demonstrates clipping on a node with a rounded border"
+category = "UI (User Interface)"
+wasm = true
+
+[[example]]
 name = "render_depth_to_texture"
 path = "examples/shader_advanced/render_depth_to_texture.rs"
 # Causes an ICE on docs.rs
