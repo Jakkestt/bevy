@@ -1,3 +1,5 @@
+//! Demonstrating clipping with border radius
+
 use bevy::{
     color::palettes::css::{BLUE, RED},
     prelude::*,
